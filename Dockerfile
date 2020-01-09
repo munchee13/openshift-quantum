@@ -8,4 +8,4 @@ RUN pip install ipython
 
 RUN pip install qiskit
 
-CMD [ "ipython" ]
+CMD python3 -m http.server
